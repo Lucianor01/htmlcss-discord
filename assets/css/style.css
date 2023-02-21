@@ -59,7 +59,6 @@ header{
     padding: 30px;
     display: flex;
     justify-content: space-around;
-    
 }
 
 .container-header{
@@ -71,7 +70,7 @@ header{
     justify-content: space-around;
 }
 
-h1, p{
+header h1, header p{
     margin-top: 30px;
     text-align: center;
     color: #ffffff;
@@ -115,18 +114,12 @@ main{
     justify-content: center;
 }
 
-.green-container{
-    width: 60%;
-    height: 300px;
-    border: 1px dotted black;
-    background-color: green;
+.container-main-left{
+    width: 40%;
 }
 
-.aqua-container{
+.container-main-right{
     width: 20%;
-    height: 300px;
-    border: 1px dotted black;
-    background-color: aqua;
 }
 
 .container-main-2{
@@ -135,6 +128,18 @@ main{
     display: flex;
     justify-content: center;
     background-color: lightgray;
+}
+
+main h2, main p{
+    margin-top: 30px;
+}
+
+main h2{
+    font-size: 30px;
+}
+
+main p{
+    font-size: 15px;
 }
 
 .orange-container{

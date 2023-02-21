@@ -6,3 +6,9 @@
     box-sizing: border-box;
     font-family: 'Noto Sans', sans-serif;
 }
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
